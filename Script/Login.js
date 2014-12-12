@@ -6,6 +6,7 @@ function loginFrom(){
 		url:"login.html",
 		success: function(data){
 			$("#login").html(data);
+	
 		}
 	});
 }
